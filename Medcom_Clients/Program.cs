@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MedCom
+namespace Medcom_Clients
 {
     static class Program
     {
@@ -14,7 +14,7 @@ namespace MedCom
         [STAThread]
         static void Main()
         {
-            Server.StartServer();
+            ClientTCP.StartClient();
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
