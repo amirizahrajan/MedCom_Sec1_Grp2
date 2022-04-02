@@ -18,7 +18,7 @@ namespace Medcom_Clients
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PatientHomePage());
+            // Application.Run(new PatientHomePage());
         }
     }
 }
