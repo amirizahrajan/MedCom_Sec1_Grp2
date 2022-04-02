@@ -25,8 +25,11 @@
     </EmbeddedResource>
   </ItemGroup>
 
+
+
   <ItemGroup>
     <Folder Include="Resources\files\" />
   </ItemGroup>
+
 
 </Project>
