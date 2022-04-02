@@ -8,5 +8,7 @@ namespace Medcom_Clients
 {
     class Doctor
     {
+        
+
     }
 }
