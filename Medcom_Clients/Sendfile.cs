@@ -91,7 +91,7 @@ namespace Medcom_Clients
                 fileinfo = new FileInfo(@"C:\Users\Sri Hari\OneDrive\Pictures\Wallpaper\naruto live 1.JPG");
                 message = new byte[fileinfo.Length];
                 fs = new FileStream(@"C:\Users\Sri Hari\OneDrive\Pictures\Wallpaper\naruto live 1.JPG", FileMode.Open, FileAccess.Read);
-            }
+        }
             else
             {
                 fileinfo = new FileInfo(y.FileName);

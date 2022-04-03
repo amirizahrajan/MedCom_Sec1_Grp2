@@ -63,6 +63,7 @@ namespace Medcom_Clients.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+
         internal static System.Drawing.Bitmap _1__2_ {
             get {
                 object obj = ResourceManager.GetObject("1 (2)", resourceCulture);
@@ -316,6 +317,11 @@ namespace Medcom_Clients.Properties {
         internal static System.Drawing.Bitmap working_with_pharmacist1 {
             get {
                 object obj = ResourceManager.GetObject("working-with-pharmacist1", resourceCulture);
+
+        internal static System.Drawing.Bitmap Screenshot__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot (1)", resourceCulture);
+
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
