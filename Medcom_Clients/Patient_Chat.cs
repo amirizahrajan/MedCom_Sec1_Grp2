@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace Medcom_Clients
 {
-    public partial class Form1 : Form
+    public partial class Patient_Chat : Form
     {
-        public Form1()
+        public Patient_Chat()
         {
             InitializeComponent();
         }
 
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
