@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MedCom
+namespace Doctor
 {
     static class Program
     {
@@ -14,11 +14,10 @@ namespace MedCom
         [STAThread]
         static void Main()
         {
-          //  Server.StartServer();
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new recfile());
+            Application.Run(new prescription());
         }
     }
 }
