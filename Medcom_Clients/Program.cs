@@ -14,11 +14,10 @@ namespace Medcom_Clients
         [STAThread]
         static void Main()
         {
-            ClientTCP.StartClient();
-            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+           Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Sendfile());
         }
     }
 }

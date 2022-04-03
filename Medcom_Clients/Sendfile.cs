@@ -19,7 +19,7 @@ namespace Medcom_Clients
         {
             InitializeComponent();
 
-            pictureBox1.Image = Image.FromFile(@"C:\Users\Sri Hari\OneDrive\Pictures\Wallpaper\naruto live 1.JPG");
+            //pictureBox1.Image = Image.FromFile(@"C:\Users\Sri Hari\OneDrive\Pictures\Wallpaper\naruto live 1.JPG");
 
             string strHostName = System.Net.Dns.GetHostName();
             IPHostEntry ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
