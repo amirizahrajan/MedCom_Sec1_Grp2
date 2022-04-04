@@ -97,5 +97,16 @@ namespace Medcom_Clients
             Phar_Patientlist f1 = new Phar_Patientlist();
             f1.Show();
         }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            Phar_Chat phar = new Phar_Chat();
+            phar.Show();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

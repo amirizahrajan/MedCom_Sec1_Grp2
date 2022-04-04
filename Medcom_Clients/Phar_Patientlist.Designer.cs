@@ -109,6 +109,7 @@ namespace Medcom_Clients
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
             this.guna2GradientPanel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -143,11 +144,13 @@ namespace Medcom_Clients
             // guna2GradientPanel3
             // 
             this.guna2GradientPanel3.BackColor = System.Drawing.Color.MediumAquamarine;
+            this.guna2GradientPanel3.Controls.Add(this.button13);
             this.guna2GradientPanel3.Controls.Add(this.textBox1);
             this.guna2GradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2GradientPanel3.Location = new System.Drawing.Point(0, 0);
+            this.guna2GradientPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.guna2GradientPanel3.Name = "guna2GradientPanel3";
-            this.guna2GradientPanel3.Size = new System.Drawing.Size(1016, 68);
+            this.guna2GradientPanel3.Size = new System.Drawing.Size(889, 51);
             this.guna2GradientPanel3.TabIndex = 2;
             this.guna2GradientPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2GradientPanel3_Paint);
             // 
@@ -156,9 +159,10 @@ namespace Medcom_Clients
             this.textBox1.BackColor = System.Drawing.Color.MediumAquamarine;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(15, 12);
+            this.textBox1.Location = new System.Drawing.Point(69, 11);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(634, 40);
+            this.textBox1.Size = new System.Drawing.Size(555, 32);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = "Patient List";
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
@@ -167,9 +171,11 @@ namespace Medcom_Clients
             // 
             this.groupBox1.Controls.Add(this.panel1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.groupBox1.Location = new System.Drawing.Point(0, 68);
+            this.groupBox1.Location = new System.Drawing.Point(0, 51);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1016, 556);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(889, 417);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
@@ -193,8 +199,9 @@ namespace Medcom_Clients
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1017, 552);
+            this.panel1.Size = new System.Drawing.Size(890, 414);
             this.panel1.TabIndex = 0;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint_1);
             // 
@@ -202,18 +209,19 @@ namespace Medcom_Clients
             // 
             this.panel15.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel15.Controls.Add(this.label14);
-            this.panel15.Location = new System.Drawing.Point(20, 10);
+            this.panel15.Location = new System.Drawing.Point(18, 8);
+            this.panel15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(189, 37);
+            this.panel15.Size = new System.Drawing.Size(165, 28);
             this.panel15.TabIndex = 13;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Arial Narrow", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label14.Location = new System.Drawing.Point(13, 8);
+            this.label14.Location = new System.Drawing.Point(11, 6);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(56, 22);
+            this.label14.Size = new System.Drawing.Size(49, 20);
             this.label14.TabIndex = 0;
             this.label14.Text = "Search";
             this.label14.Click += new System.EventHandler(this.label14_Click);
@@ -224,16 +232,18 @@ namespace Medcom_Clients
             this.panel11.Controls.Add(this.button12);
             this.panel11.Controls.Add(this.groupBox13);
             this.panel11.Controls.Add(this.label10);
-            this.panel11.Location = new System.Drawing.Point(13, 539);
+            this.panel11.Location = new System.Drawing.Point(11, 404);
+            this.panel11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(990, 40);
+            this.panel11.Size = new System.Drawing.Size(866, 30);
             this.panel11.TabIndex = 12;
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(859, 4);
+            this.button12.Location = new System.Drawing.Point(752, 3);
+            this.button12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(74, 30);
+            this.button12.Size = new System.Drawing.Size(65, 22);
             this.button12.TabIndex = 6;
             this.button12.Text = "Upload";
             this.button12.UseVisualStyleBackColor = true;
@@ -242,18 +252,21 @@ namespace Medcom_Clients
             // 
             this.groupBox13.Controls.Add(this.radioButton23);
             this.groupBox13.Controls.Add(this.radioButton24);
-            this.groupBox13.Location = new System.Drawing.Point(635, 5);
+            this.groupBox13.Location = new System.Drawing.Point(556, 4);
+            this.groupBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(208, 32);
+            this.groupBox13.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox13.Size = new System.Drawing.Size(182, 24);
             this.groupBox13.TabIndex = 5;
             this.groupBox13.TabStop = false;
             // 
             // radioButton23
             // 
             this.radioButton23.AutoSize = true;
-            this.radioButton23.Location = new System.Drawing.Point(115, 9);
+            this.radioButton23.Location = new System.Drawing.Point(101, 7);
+            this.radioButton23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(71, 24);
+            this.radioButton23.Size = new System.Drawing.Size(57, 19);
             this.radioButton23.TabIndex = 1;
             this.radioButton23.TabStop = true;
             this.radioButton23.Text = "Ready";
@@ -262,9 +275,10 @@ namespace Medcom_Clients
             // radioButton24
             // 
             this.radioButton24.AutoSize = true;
-            this.radioButton24.Location = new System.Drawing.Point(7, 8);
+            this.radioButton24.Location = new System.Drawing.Point(6, 6);
+            this.radioButton24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(102, 24);
+            this.radioButton24.Size = new System.Drawing.Size(83, 19);
             this.radioButton24.TabIndex = 0;
             this.radioButton24.TabStop = true;
             this.radioButton24.Text = "In Progress";
@@ -275,9 +289,9 @@ namespace Medcom_Clients
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label10.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label10.Location = new System.Drawing.Point(7, 4);
+            this.label10.Location = new System.Drawing.Point(6, 3);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(592, 22);
+            this.label10.Size = new System.Drawing.Size(453, 17);
             this.label10.TabIndex = 1;
             this.label10.Text = "Bever                     Kehrowe             1999-09-18       23456            M" +
     "r.Mir             Citalopram\r\n";
@@ -288,16 +302,18 @@ namespace Medcom_Clients
             this.panel12.Controls.Add(this.button11);
             this.panel12.Controls.Add(this.groupBox12);
             this.panel12.Controls.Add(this.label11);
-            this.panel12.Location = new System.Drawing.Point(13, 500);
+            this.panel12.Location = new System.Drawing.Point(11, 375);
+            this.panel12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(990, 40);
+            this.panel12.Size = new System.Drawing.Size(866, 30);
             this.panel12.TabIndex = 11;
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(859, 6);
+            this.button11.Location = new System.Drawing.Point(752, 4);
+            this.button11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(74, 30);
+            this.button11.Size = new System.Drawing.Size(65, 22);
             this.button11.TabIndex = 14;
             this.button11.Text = "Upload";
             this.button11.UseVisualStyleBackColor = true;
@@ -306,18 +322,21 @@ namespace Medcom_Clients
             // 
             this.groupBox12.Controls.Add(this.radioButton21);
             this.groupBox12.Controls.Add(this.radioButton22);
-            this.groupBox12.Location = new System.Drawing.Point(635, 5);
+            this.groupBox12.Location = new System.Drawing.Point(556, 4);
+            this.groupBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(208, 32);
+            this.groupBox12.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox12.Size = new System.Drawing.Size(182, 24);
             this.groupBox12.TabIndex = 13;
             this.groupBox12.TabStop = false;
             // 
             // radioButton21
             // 
             this.radioButton21.AutoSize = true;
-            this.radioButton21.Location = new System.Drawing.Point(115, 9);
+            this.radioButton21.Location = new System.Drawing.Point(101, 7);
+            this.radioButton21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton21.Name = "radioButton21";
-            this.radioButton21.Size = new System.Drawing.Size(71, 24);
+            this.radioButton21.Size = new System.Drawing.Size(57, 19);
             this.radioButton21.TabIndex = 1;
             this.radioButton21.TabStop = true;
             this.radioButton21.Text = "Ready";
@@ -326,9 +345,10 @@ namespace Medcom_Clients
             // radioButton22
             // 
             this.radioButton22.AutoSize = true;
-            this.radioButton22.Location = new System.Drawing.Point(7, 8);
+            this.radioButton22.Location = new System.Drawing.Point(6, 6);
+            this.radioButton22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(102, 24);
+            this.radioButton22.Size = new System.Drawing.Size(83, 19);
             this.radioButton22.TabIndex = 0;
             this.radioButton22.TabStop = true;
             this.radioButton22.Text = "In Progress";
@@ -339,9 +359,9 @@ namespace Medcom_Clients
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label11.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label11.Location = new System.Drawing.Point(7, 4);
+            this.label11.Location = new System.Drawing.Point(6, 3);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(592, 22);
+            this.label11.Size = new System.Drawing.Size(452, 17);
             this.label11.TabIndex = 1;
             this.label11.Text = "Aryro                     Khristian              1999-09-21       23456          " +
     "  Mr.Mir             Citalopram\r\n";
@@ -352,16 +372,18 @@ namespace Medcom_Clients
             this.panel13.Controls.Add(this.button9);
             this.panel13.Controls.Add(this.groupBox10);
             this.panel13.Controls.Add(this.label12);
-            this.panel13.Location = new System.Drawing.Point(13, 461);
+            this.panel13.Location = new System.Drawing.Point(11, 346);
+            this.panel13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(990, 40);
+            this.panel13.Size = new System.Drawing.Size(866, 30);
             this.panel13.TabIndex = 10;
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(859, 5);
+            this.button9.Location = new System.Drawing.Point(752, 4);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(74, 30);
+            this.button9.Size = new System.Drawing.Size(65, 22);
             this.button9.TabIndex = 5;
             this.button9.Text = "Upload";
             this.button9.UseVisualStyleBackColor = true;
@@ -370,18 +392,21 @@ namespace Medcom_Clients
             // 
             this.groupBox10.Controls.Add(this.radioButton17);
             this.groupBox10.Controls.Add(this.radioButton18);
-            this.groupBox10.Location = new System.Drawing.Point(635, 8);
+            this.groupBox10.Location = new System.Drawing.Point(556, 6);
+            this.groupBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(208, 32);
+            this.groupBox10.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox10.Size = new System.Drawing.Size(182, 24);
             this.groupBox10.TabIndex = 4;
             this.groupBox10.TabStop = false;
             // 
             // radioButton17
             // 
             this.radioButton17.AutoSize = true;
-            this.radioButton17.Location = new System.Drawing.Point(115, 9);
+            this.radioButton17.Location = new System.Drawing.Point(101, 7);
+            this.radioButton17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton17.Name = "radioButton17";
-            this.radioButton17.Size = new System.Drawing.Size(71, 24);
+            this.radioButton17.Size = new System.Drawing.Size(57, 19);
             this.radioButton17.TabIndex = 1;
             this.radioButton17.TabStop = true;
             this.radioButton17.Text = "Ready";
@@ -390,9 +415,10 @@ namespace Medcom_Clients
             // radioButton18
             // 
             this.radioButton18.AutoSize = true;
-            this.radioButton18.Location = new System.Drawing.Point(7, 8);
+            this.radioButton18.Location = new System.Drawing.Point(6, 6);
+            this.radioButton18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton18.Name = "radioButton18";
-            this.radioButton18.Size = new System.Drawing.Size(102, 24);
+            this.radioButton18.Size = new System.Drawing.Size(83, 19);
             this.radioButton18.TabIndex = 0;
             this.radioButton18.TabStop = true;
             this.radioButton18.Text = "In Progress";
@@ -403,9 +429,9 @@ namespace Medcom_Clients
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label12.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label12.Location = new System.Drawing.Point(7, 4);
+            this.label12.Location = new System.Drawing.Point(6, 3);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(566, 22);
+            this.label12.Size = new System.Drawing.Size(432, 17);
             this.label12.TabIndex = 1;
             this.label12.Text = "Sahil                      Aghileeeh            1993-08-23       78565           " +
     " Ms.Mir            Nsaids\r\n";
@@ -417,16 +443,18 @@ namespace Medcom_Clients
             this.panel14.Controls.Add(this.button10);
             this.panel14.Controls.Add(this.groupBox11);
             this.panel14.Controls.Add(this.label13);
-            this.panel14.Location = new System.Drawing.Point(13, 422);
+            this.panel14.Location = new System.Drawing.Point(11, 316);
+            this.panel14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(990, 40);
+            this.panel14.Size = new System.Drawing.Size(866, 30);
             this.panel14.TabIndex = 9;
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(859, 5);
+            this.button10.Location = new System.Drawing.Point(752, 4);
+            this.button10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(74, 30);
+            this.button10.Size = new System.Drawing.Size(65, 22);
             this.button10.TabIndex = 6;
             this.button10.Text = "Upload";
             this.button10.UseVisualStyleBackColor = true;
@@ -435,18 +463,21 @@ namespace Medcom_Clients
             // 
             this.groupBox11.Controls.Add(this.radioButton19);
             this.groupBox11.Controls.Add(this.radioButton20);
-            this.groupBox11.Location = new System.Drawing.Point(635, 8);
+            this.groupBox11.Location = new System.Drawing.Point(556, 6);
+            this.groupBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(208, 32);
+            this.groupBox11.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox11.Size = new System.Drawing.Size(182, 24);
             this.groupBox11.TabIndex = 4;
             this.groupBox11.TabStop = false;
             // 
             // radioButton19
             // 
             this.radioButton19.AutoSize = true;
-            this.radioButton19.Location = new System.Drawing.Point(115, 9);
+            this.radioButton19.Location = new System.Drawing.Point(101, 7);
+            this.radioButton19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton19.Name = "radioButton19";
-            this.radioButton19.Size = new System.Drawing.Size(71, 24);
+            this.radioButton19.Size = new System.Drawing.Size(57, 19);
             this.radioButton19.TabIndex = 1;
             this.radioButton19.TabStop = true;
             this.radioButton19.Text = "Ready";
@@ -455,9 +486,10 @@ namespace Medcom_Clients
             // radioButton20
             // 
             this.radioButton20.AutoSize = true;
-            this.radioButton20.Location = new System.Drawing.Point(7, 8);
+            this.radioButton20.Location = new System.Drawing.Point(6, 6);
+            this.radioButton20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton20.Name = "radioButton20";
-            this.radioButton20.Size = new System.Drawing.Size(102, 24);
+            this.radioButton20.Size = new System.Drawing.Size(83, 19);
             this.radioButton20.TabIndex = 0;
             this.radioButton20.TabStop = true;
             this.radioButton20.Text = "In Progress";
@@ -468,9 +500,9 @@ namespace Medcom_Clients
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label13.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label13.Location = new System.Drawing.Point(7, 4);
+            this.label13.Location = new System.Drawing.Point(6, 3);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(617, 22);
+            this.label13.Size = new System.Drawing.Size(471, 17);
             this.label13.TabIndex = 1;
             this.label13.Text = "Jacob                    DaCemeron       1956-10-30       8767              Mr.Mi" +
     "r              Acetametophin\r\n";
@@ -482,16 +514,18 @@ namespace Medcom_Clients
             this.panel8.Controls.Add(this.button8);
             this.panel8.Controls.Add(this.groupBox9);
             this.panel8.Controls.Add(this.label8);
-            this.panel8.Location = new System.Drawing.Point(15, 383);
+            this.panel8.Location = new System.Drawing.Point(13, 287);
+            this.panel8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(990, 40);
+            this.panel8.Size = new System.Drawing.Size(866, 30);
             this.panel8.TabIndex = 8;
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(857, 4);
+            this.button8.Location = new System.Drawing.Point(750, 3);
+            this.button8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(74, 30);
+            this.button8.Size = new System.Drawing.Size(65, 22);
             this.button8.TabIndex = 5;
             this.button8.Text = "Upload";
             this.button8.UseVisualStyleBackColor = true;
@@ -500,18 +534,21 @@ namespace Medcom_Clients
             // 
             this.groupBox9.Controls.Add(this.radioButton15);
             this.groupBox9.Controls.Add(this.radioButton16);
-            this.groupBox9.Location = new System.Drawing.Point(633, 4);
+            this.groupBox9.Location = new System.Drawing.Point(554, 3);
+            this.groupBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(208, 32);
+            this.groupBox9.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox9.Size = new System.Drawing.Size(182, 24);
             this.groupBox9.TabIndex = 4;
             this.groupBox9.TabStop = false;
             // 
             // radioButton15
             // 
             this.radioButton15.AutoSize = true;
-            this.radioButton15.Location = new System.Drawing.Point(115, 9);
+            this.radioButton15.Location = new System.Drawing.Point(101, 7);
+            this.radioButton15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton15.Name = "radioButton15";
-            this.radioButton15.Size = new System.Drawing.Size(71, 24);
+            this.radioButton15.Size = new System.Drawing.Size(57, 19);
             this.radioButton15.TabIndex = 1;
             this.radioButton15.TabStop = true;
             this.radioButton15.Text = "Ready";
@@ -520,9 +557,10 @@ namespace Medcom_Clients
             // radioButton16
             // 
             this.radioButton16.AutoSize = true;
-            this.radioButton16.Location = new System.Drawing.Point(7, 8);
+            this.radioButton16.Location = new System.Drawing.Point(6, 6);
+            this.radioButton16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton16.Name = "radioButton16";
-            this.radioButton16.Size = new System.Drawing.Size(102, 24);
+            this.radioButton16.Size = new System.Drawing.Size(83, 19);
             this.radioButton16.TabIndex = 0;
             this.radioButton16.TabStop = true;
             this.radioButton16.Text = "In Progress";
@@ -533,9 +571,9 @@ namespace Medcom_Clients
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label8.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label8.Location = new System.Drawing.Point(7, 4);
+            this.label8.Location = new System.Drawing.Point(6, 3);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(572, 22);
+            this.label8.Size = new System.Drawing.Size(440, 17);
             this.label8.TabIndex = 1;
             this.label8.Text = "Aysh                      Al-Amirii              1970-08-13       12300          " +
     "  Ms.Bob             Nsaids";
@@ -546,16 +584,18 @@ namespace Medcom_Clients
             this.panel9.Controls.Add(this.button6);
             this.panel9.Controls.Add(this.groupBox8);
             this.panel9.Controls.Add(this.label9);
-            this.panel9.Location = new System.Drawing.Point(15, 344);
+            this.panel9.Location = new System.Drawing.Point(13, 258);
+            this.panel9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(990, 40);
+            this.panel9.Size = new System.Drawing.Size(866, 30);
             this.panel9.TabIndex = 7;
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(857, 4);
+            this.button6.Location = new System.Drawing.Point(750, 3);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(74, 30);
+            this.button6.Size = new System.Drawing.Size(65, 22);
             this.button6.TabIndex = 5;
             this.button6.Text = "Upload";
             this.button6.UseVisualStyleBackColor = true;
@@ -564,18 +604,21 @@ namespace Medcom_Clients
             // 
             this.groupBox8.Controls.Add(this.radioButton13);
             this.groupBox8.Controls.Add(this.radioButton14);
-            this.groupBox8.Location = new System.Drawing.Point(633, 8);
+            this.groupBox8.Location = new System.Drawing.Point(554, 6);
+            this.groupBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(208, 32);
+            this.groupBox8.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox8.Size = new System.Drawing.Size(182, 24);
             this.groupBox8.TabIndex = 4;
             this.groupBox8.TabStop = false;
             // 
             // radioButton13
             // 
             this.radioButton13.AutoSize = true;
-            this.radioButton13.Location = new System.Drawing.Point(115, 9);
+            this.radioButton13.Location = new System.Drawing.Point(101, 7);
+            this.radioButton13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton13.Name = "radioButton13";
-            this.radioButton13.Size = new System.Drawing.Size(71, 24);
+            this.radioButton13.Size = new System.Drawing.Size(57, 19);
             this.radioButton13.TabIndex = 1;
             this.radioButton13.TabStop = true;
             this.radioButton13.Text = "Ready";
@@ -584,9 +627,10 @@ namespace Medcom_Clients
             // radioButton14
             // 
             this.radioButton14.AutoSize = true;
-            this.radioButton14.Location = new System.Drawing.Point(7, 8);
+            this.radioButton14.Location = new System.Drawing.Point(6, 6);
+            this.radioButton14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton14.Name = "radioButton14";
-            this.radioButton14.Size = new System.Drawing.Size(102, 24);
+            this.radioButton14.Size = new System.Drawing.Size(83, 19);
             this.radioButton14.TabIndex = 0;
             this.radioButton14.TabStop = true;
             this.radioButton14.Text = "In Progress";
@@ -597,9 +641,9 @@ namespace Medcom_Clients
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label9.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label9.Location = new System.Drawing.Point(7, 4);
+            this.label9.Location = new System.Drawing.Point(6, 3);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(573, 22);
+            this.label9.Size = new System.Drawing.Size(435, 17);
             this.label9.TabIndex = 1;
             this.label9.Text = "Bilal                       Zematyae            2000-08-21       12324           " +
     " Ms.Loo             Nsaids";
@@ -610,16 +654,18 @@ namespace Medcom_Clients
             this.panel7.Controls.Add(this.button7);
             this.panel7.Controls.Add(this.groupBox7);
             this.panel7.Controls.Add(this.label6);
-            this.panel7.Location = new System.Drawing.Point(15, 305);
+            this.panel7.Location = new System.Drawing.Point(13, 229);
+            this.panel7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(990, 40);
+            this.panel7.Size = new System.Drawing.Size(866, 30);
             this.panel7.TabIndex = 6;
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(857, 5);
+            this.button7.Location = new System.Drawing.Point(750, 4);
+            this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(74, 30);
+            this.button7.Size = new System.Drawing.Size(65, 22);
             this.button7.TabIndex = 6;
             this.button7.Text = "Upload";
             this.button7.UseVisualStyleBackColor = true;
@@ -628,18 +674,21 @@ namespace Medcom_Clients
             // 
             this.groupBox7.Controls.Add(this.radioButton11);
             this.groupBox7.Controls.Add(this.radioButton12);
-            this.groupBox7.Location = new System.Drawing.Point(633, 7);
+            this.groupBox7.Location = new System.Drawing.Point(554, 5);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(208, 32);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox7.Size = new System.Drawing.Size(182, 24);
             this.groupBox7.TabIndex = 4;
             this.groupBox7.TabStop = false;
             // 
             // radioButton11
             // 
             this.radioButton11.AutoSize = true;
-            this.radioButton11.Location = new System.Drawing.Point(115, 9);
+            this.radioButton11.Location = new System.Drawing.Point(101, 7);
+            this.radioButton11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton11.Name = "radioButton11";
-            this.radioButton11.Size = new System.Drawing.Size(71, 24);
+            this.radioButton11.Size = new System.Drawing.Size(57, 19);
             this.radioButton11.TabIndex = 1;
             this.radioButton11.TabStop = true;
             this.radioButton11.Text = "Ready";
@@ -648,9 +697,10 @@ namespace Medcom_Clients
             // radioButton12
             // 
             this.radioButton12.AutoSize = true;
-            this.radioButton12.Location = new System.Drawing.Point(7, 8);
+            this.radioButton12.Location = new System.Drawing.Point(6, 6);
+            this.radioButton12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton12.Name = "radioButton12";
-            this.radioButton12.Size = new System.Drawing.Size(102, 24);
+            this.radioButton12.Size = new System.Drawing.Size(83, 19);
             this.radioButton12.TabIndex = 0;
             this.radioButton12.TabStop = true;
             this.radioButton12.Text = "In Progress";
@@ -661,9 +711,9 @@ namespace Medcom_Clients
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label6.Location = new System.Drawing.Point(7, 4);
+            this.label6.Location = new System.Drawing.Point(6, 3);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(569, 22);
+            this.label6.Size = new System.Drawing.Size(433, 17);
             this.label6.TabIndex = 1;
             this.label6.Text = "Zaina                     Ab-Akbari            1860-08-21       98765            " +
     "Mr.Mir             Valium";
@@ -674,16 +724,18 @@ namespace Medcom_Clients
             this.panel6.Controls.Add(this.button5);
             this.panel6.Controls.Add(this.groupBox6);
             this.panel6.Controls.Add(this.label5);
-            this.panel6.Location = new System.Drawing.Point(15, 266);
+            this.panel6.Location = new System.Drawing.Point(13, 200);
+            this.panel6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(990, 40);
+            this.panel6.Size = new System.Drawing.Size(866, 30);
             this.panel6.TabIndex = 5;
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(857, 5);
+            this.button5.Location = new System.Drawing.Point(750, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(74, 30);
+            this.button5.Size = new System.Drawing.Size(65, 22);
             this.button5.TabIndex = 5;
             this.button5.Text = "Upload";
             this.button5.UseVisualStyleBackColor = true;
@@ -692,18 +744,21 @@ namespace Medcom_Clients
             // 
             this.groupBox6.Controls.Add(this.radioButton9);
             this.groupBox6.Controls.Add(this.radioButton10);
-            this.groupBox6.Location = new System.Drawing.Point(633, 6);
+            this.groupBox6.Location = new System.Drawing.Point(554, 4);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(208, 32);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox6.Size = new System.Drawing.Size(182, 24);
             this.groupBox6.TabIndex = 4;
             this.groupBox6.TabStop = false;
             // 
             // radioButton9
             // 
             this.radioButton9.AutoSize = true;
-            this.radioButton9.Location = new System.Drawing.Point(115, 9);
+            this.radioButton9.Location = new System.Drawing.Point(101, 7);
+            this.radioButton9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton9.Name = "radioButton9";
-            this.radioButton9.Size = new System.Drawing.Size(71, 24);
+            this.radioButton9.Size = new System.Drawing.Size(57, 19);
             this.radioButton9.TabIndex = 1;
             this.radioButton9.TabStop = true;
             this.radioButton9.Text = "Ready";
@@ -712,9 +767,10 @@ namespace Medcom_Clients
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
-            this.radioButton10.Location = new System.Drawing.Point(7, 8);
+            this.radioButton10.Location = new System.Drawing.Point(6, 6);
+            this.radioButton10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton10.Name = "radioButton10";
-            this.radioButton10.Size = new System.Drawing.Size(102, 24);
+            this.radioButton10.Size = new System.Drawing.Size(83, 19);
             this.radioButton10.TabIndex = 0;
             this.radioButton10.TabStop = true;
             this.radioButton10.Text = "In Progress";
@@ -725,9 +781,9 @@ namespace Medcom_Clients
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label5.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label5.Location = new System.Drawing.Point(7, 4);
+            this.label5.Location = new System.Drawing.Point(6, 3);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(566, 22);
+            this.label5.Size = new System.Drawing.Size(432, 17);
             this.label5.TabIndex = 1;
             this.label5.Text = "Jamil                     Mohaammed      1969-12-21        3434             Mr.Bo" +
     "b             Lyrica\r\n";
@@ -738,17 +794,19 @@ namespace Medcom_Clients
             this.panel4.Controls.Add(this.button4);
             this.panel4.Controls.Add(this.groupBox5);
             this.panel4.Controls.Add(this.label3);
-            this.panel4.Location = new System.Drawing.Point(15, 227);
+            this.panel4.Location = new System.Drawing.Point(13, 170);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(990, 40);
+            this.panel4.Size = new System.Drawing.Size(866, 30);
             this.panel4.TabIndex = 4;
             this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(857, 4);
+            this.button4.Location = new System.Drawing.Point(750, 3);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(74, 30);
+            this.button4.Size = new System.Drawing.Size(65, 22);
             this.button4.TabIndex = 5;
             this.button4.Text = "Upload";
             this.button4.UseVisualStyleBackColor = true;
@@ -757,18 +815,21 @@ namespace Medcom_Clients
             // 
             this.groupBox5.Controls.Add(this.radioButton7);
             this.groupBox5.Controls.Add(this.radioButton8);
-            this.groupBox5.Location = new System.Drawing.Point(633, 7);
+            this.groupBox5.Location = new System.Drawing.Point(554, 5);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(208, 32);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox5.Size = new System.Drawing.Size(182, 24);
             this.groupBox5.TabIndex = 3;
             this.groupBox5.TabStop = false;
             // 
             // radioButton7
             // 
             this.radioButton7.AutoSize = true;
-            this.radioButton7.Location = new System.Drawing.Point(115, 9);
+            this.radioButton7.Location = new System.Drawing.Point(101, 7);
+            this.radioButton7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(71, 24);
+            this.radioButton7.Size = new System.Drawing.Size(57, 19);
             this.radioButton7.TabIndex = 1;
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "Ready";
@@ -777,9 +838,10 @@ namespace Medcom_Clients
             // radioButton8
             // 
             this.radioButton8.AutoSize = true;
-            this.radioButton8.Location = new System.Drawing.Point(7, 8);
+            this.radioButton8.Location = new System.Drawing.Point(6, 6);
+            this.radioButton8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(102, 24);
+            this.radioButton8.Size = new System.Drawing.Size(83, 19);
             this.radioButton8.TabIndex = 0;
             this.radioButton8.TabStop = true;
             this.radioButton8.Text = "In Progress";
@@ -790,9 +852,9 @@ namespace Medcom_Clients
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label3.Location = new System.Drawing.Point(7, 4);
+            this.label3.Location = new System.Drawing.Point(6, 3);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(570, 44);
+            this.label3.Size = new System.Drawing.Size(436, 34);
             this.label3.TabIndex = 1;
             this.label3.Text = "Nargi                      Babakhsi            1959-08-21       56759            " +
     "Ms.Bob             Xanan\r\n\r\n";
@@ -804,17 +866,19 @@ namespace Medcom_Clients
             this.panel10.Controls.Add(this.button2);
             this.panel10.Controls.Add(this.groupBox3);
             this.panel10.Controls.Add(this.label7);
-            this.panel10.Location = new System.Drawing.Point(15, 150);
+            this.panel10.Location = new System.Drawing.Point(13, 112);
+            this.panel10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(990, 40);
+            this.panel10.Size = new System.Drawing.Size(866, 30);
             this.panel10.TabIndex = 2;
             this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(857, 6);
+            this.button2.Location = new System.Drawing.Point(750, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(74, 30);
+            this.button2.Size = new System.Drawing.Size(65, 22);
             this.button2.TabIndex = 3;
             this.button2.Text = "Upload";
             this.button2.UseVisualStyleBackColor = true;
@@ -824,18 +888,21 @@ namespace Medcom_Clients
             // 
             this.groupBox3.Controls.Add(this.radioButton3);
             this.groupBox3.Controls.Add(this.radioButton4);
-            this.groupBox3.Location = new System.Drawing.Point(633, 5);
+            this.groupBox3.Location = new System.Drawing.Point(554, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(208, 32);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(182, 24);
             this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
             // 
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(115, 9);
+            this.radioButton3.Location = new System.Drawing.Point(101, 7);
+            this.radioButton3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(71, 24);
+            this.radioButton3.Size = new System.Drawing.Size(57, 19);
             this.radioButton3.TabIndex = 1;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Ready";
@@ -844,9 +911,10 @@ namespace Medcom_Clients
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(7, 8);
+            this.radioButton4.Location = new System.Drawing.Point(6, 6);
+            this.radioButton4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(102, 24);
+            this.radioButton4.Size = new System.Drawing.Size(83, 19);
             this.radioButton4.TabIndex = 0;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "In Progress";
@@ -857,9 +925,9 @@ namespace Medcom_Clients
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label7.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label7.Location = new System.Drawing.Point(7, 4);
+            this.label7.Location = new System.Drawing.Point(6, 3);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(576, 22);
+            this.label7.Size = new System.Drawing.Size(436, 17);
             this.label7.TabIndex = 1;
             this.label7.Text = "Zytro                      Hikahlale            1959-08-21       56789           " +
     " Mr.Joe             Diltiazim";
@@ -871,17 +939,19 @@ namespace Medcom_Clients
             this.panel5.Controls.Add(this.button3);
             this.panel5.Controls.Add(this.groupBox4);
             this.panel5.Controls.Add(this.label4);
-            this.panel5.Location = new System.Drawing.Point(15, 189);
+            this.panel5.Location = new System.Drawing.Point(13, 142);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(990, 53);
+            this.panel5.Size = new System.Drawing.Size(866, 40);
             this.panel5.TabIndex = 3;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(857, 4);
+            this.button3.Location = new System.Drawing.Point(750, 3);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(74, 30);
+            this.button3.Size = new System.Drawing.Size(65, 22);
             this.button3.TabIndex = 4;
             this.button3.Text = "Upload";
             this.button3.UseVisualStyleBackColor = true;
@@ -890,18 +960,21 @@ namespace Medcom_Clients
             // 
             this.groupBox4.Controls.Add(this.radioButton5);
             this.groupBox4.Controls.Add(this.radioButton6);
-            this.groupBox4.Location = new System.Drawing.Point(633, 7);
+            this.groupBox4.Location = new System.Drawing.Point(554, 5);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(208, 32);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox4.Size = new System.Drawing.Size(182, 24);
             this.groupBox4.TabIndex = 2;
             this.groupBox4.TabStop = false;
             // 
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(115, 9);
+            this.radioButton5.Location = new System.Drawing.Point(101, 7);
+            this.radioButton5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(71, 24);
+            this.radioButton5.Size = new System.Drawing.Size(57, 19);
             this.radioButton5.TabIndex = 1;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Ready";
@@ -910,9 +983,10 @@ namespace Medcom_Clients
             // radioButton6
             // 
             this.radioButton6.AutoSize = true;
-            this.radioButton6.Location = new System.Drawing.Point(7, 8);
+            this.radioButton6.Location = new System.Drawing.Point(6, 6);
+            this.radioButton6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton6.Name = "radioButton6";
-            this.radioButton6.Size = new System.Drawing.Size(102, 24);
+            this.radioButton6.Size = new System.Drawing.Size(83, 19);
             this.radioButton6.TabIndex = 0;
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "In Progress";
@@ -923,9 +997,9 @@ namespace Medcom_Clients
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label4.Location = new System.Drawing.Point(7, 4);
+            this.label4.Location = new System.Drawing.Point(6, 3);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(564, 22);
+            this.label4.Size = new System.Drawing.Size(428, 17);
             this.label4.TabIndex = 1;
             this.label4.Text = "Jalal                      Zematyae            2000-08-21       45454            " +
     "Mr.Joe             Ativan";
@@ -937,17 +1011,19 @@ namespace Medcom_Clients
             this.panel3.Controls.Add(this.button1);
             this.panel3.Controls.Add(this.groupBox2);
             this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(15, 112);
+            this.panel3.Location = new System.Drawing.Point(13, 84);
+            this.panel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(990, 53);
+            this.panel3.Size = new System.Drawing.Size(866, 40);
             this.panel3.TabIndex = 1;
             this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(857, 6);
+            this.button1.Location = new System.Drawing.Point(750, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(74, 30);
+            this.button1.Size = new System.Drawing.Size(65, 22);
             this.button1.TabIndex = 2;
             this.button1.Text = "Upload";
             this.button1.UseVisualStyleBackColor = true;
@@ -957,9 +1033,11 @@ namespace Medcom_Clients
             // 
             this.groupBox2.Controls.Add(this.radioButton2);
             this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Location = new System.Drawing.Point(633, 3);
+            this.groupBox2.Location = new System.Drawing.Point(554, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(208, 32);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox2.Size = new System.Drawing.Size(182, 24);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
@@ -967,9 +1045,10 @@ namespace Medcom_Clients
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(115, 9);
+            this.radioButton2.Location = new System.Drawing.Point(101, 7);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(71, 24);
+            this.radioButton2.Size = new System.Drawing.Size(57, 19);
             this.radioButton2.TabIndex = 1;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Ready";
@@ -979,9 +1058,10 @@ namespace Medcom_Clients
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(7, 8);
+            this.radioButton1.Location = new System.Drawing.Point(6, 6);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(102, 24);
+            this.radioButton1.Size = new System.Drawing.Size(83, 19);
             this.radioButton1.TabIndex = 0;
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "In Progress";
@@ -993,9 +1073,9 @@ namespace Medcom_Clients
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label2.Location = new System.Drawing.Point(7, 4);
+            this.label2.Location = new System.Drawing.Point(6, 3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(592, 22);
+            this.label2.Size = new System.Drawing.Size(452, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Aryro                     Khristian              1999-09-21       23456          " +
     "  Mr.Mir             Citalopram\r\n";
@@ -1006,9 +1086,10 @@ namespace Medcom_Clients
             this.panel2.BackColor = System.Drawing.SystemColors.ControlDark;
             this.panel2.Controls.Add(this.label1);
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.panel2.Location = new System.Drawing.Point(15, 53);
+            this.panel2.Location = new System.Drawing.Point(13, 40);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(990, 59);
+            this.panel2.Size = new System.Drawing.Size(866, 44);
             this.panel2.TabIndex = 0;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
@@ -1017,23 +1098,34 @@ namespace Medcom_Clients
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.label1.Location = new System.Drawing.Point(7, 17);
+            this.label1.Location = new System.Drawing.Point(6, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(907, 22);
+            this.label1.Size = new System.Drawing.Size(698, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Last Name             First Name            DOB                ID #              " +
     "Doctor             Prescription             Prescription Status                 " +
     "         Invoive";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button13.Location = new System.Drawing.Point(3, -14);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(48, 44);
+            this.button13.TabIndex = 11;
+            this.button13.Text = "⬅️ ";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
             // Phar_Patientlist
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1016, 624);
+            this.ClientSize = new System.Drawing.Size(889, 468);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.guna2GradientPanel3);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Phar_Patientlist";
             this.Text = "Phar_PatientlList";
             this.Load += new System.EventHandler(this.Phar_Patientlist_Load);
@@ -1178,5 +1270,6 @@ namespace Medcom_Clients
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button13;
     }
 }

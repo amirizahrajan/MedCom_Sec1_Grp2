@@ -11,7 +11,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.IO;
 
-namespace Medcom_Clients
+namespace Doctor
 {
     public partial class Sendfile : Form
     {
@@ -28,6 +28,13 @@ namespace Medcom_Clients
             {
                 comboBox1.Items.Add(x.ToString());
             }
+
+            richTextBox1.Hide();
+            richTextBox3.Hide();
+            richTextBox2.Hide();
+            textBox1.Hide();
+            //comboBox1.Hide();
+            //button1.Hide();
         }
 
         public delegate void callrichtext(String ss);
@@ -81,6 +88,7 @@ namespace Medcom_Clients
             /*MemoryStream ms = new MemoryStream();
             pictureBox1.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Bmp);
             byte[] message = ms.ToArray();*/
+            
 
             FileInfo fileinfo;
             byte[] message;
@@ -109,6 +117,7 @@ namespace Medcom_Clients
 
             //client.Close();
             //richTextBox3.AppendText("Disconnected \n");
+            
         }
         private void button3_Click_1(object sender, EventArgs e)    //disconnected
         {
@@ -153,6 +162,7 @@ namespace Medcom_Clients
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             textBox1.Text = comboBox1.SelectedItem.ToString();
+            comboBox1.Hide();
         }
 
         private void button4_Click_1(object sender, EventArgs e)      // browse
@@ -174,6 +184,22 @@ namespace Medcom_Clients
             initialpic = false;
         }
 
-      
+        private void richTextBox3_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void richTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            client.Close();
+            richTextBox3.AppendText("Disconnected \n");
+            Doctor_Chat chat = new Doctor_Chat();
+            chat.Show();
+        }
     }
 }

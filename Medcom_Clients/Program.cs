@@ -17,7 +17,7 @@ namespace Medcom_Clients
            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Sendfile());
+            Application.Run(new Login());
         }
     }
 }

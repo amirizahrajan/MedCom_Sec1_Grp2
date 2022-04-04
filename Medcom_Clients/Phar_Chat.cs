@@ -11,9 +11,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.IO;
 
-namespace Doctor
+namespace Medcom_Clients
 {
-    public partial class Doctor_Chat : Form
+    public partial class Phar_Chat : Form
     {
         private TcpClient client;
         public StreamReader STR;
@@ -21,7 +21,7 @@ namespace Doctor
         public string recieve;
         public String TextToSend;
 
-        public Doctor_Chat()
+        public Phar_Chat()
         {
             InitializeComponent();
             IPAddress[] localIP = Dns.GetHostAddresses(Dns.GetHostName());
@@ -68,10 +68,7 @@ namespace Doctor
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Doctor_Chat doc = new Doctor_Chat();
-            
-            Sendfile sen = new Sendfile();
-            sen.Show();
+
         }
 
         private void panel3_Paint(object sender, PaintEventArgs e)
@@ -194,15 +191,8 @@ namespace Doctor
       
         }
 
-        private void ServerIPtextBox_TextChanged(object sender, EventArgs e)
+        private void ChatScreentextBox_TextChanged(object sender, EventArgs e)
         {
-
-        }
-
-        private void label39_Click(object sender, EventArgs e)
-        {
-            Doc_Login doc = new Doc_Login();
-            doc.Show();
 
         }
     }

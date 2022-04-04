@@ -16,6 +16,7 @@ namespace Doctor
         string name = "Arun";
         public Doc_Login()
         {
+            
             InitializeComponent();
         }
 
@@ -139,7 +140,9 @@ namespace Doctor
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            Doctor_Chat s1 = new Doctor_Chat();
+            s1.Show();
+            
         }
 
         private void panel5_Paint(object sender, PaintEventArgs e)
@@ -248,6 +251,16 @@ namespace Doctor
         }
 
         private void label39_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel43_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }

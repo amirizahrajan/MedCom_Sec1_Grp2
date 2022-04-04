@@ -1,7 +1,7 @@
 ﻿
-namespace Doctor
+namespace Medcom_Clients
 {
-    partial class Doctor_Chat
+    partial class Phar_Chat
     {
         /// <summary>
         /// Required designer variable.
@@ -94,10 +94,9 @@ namespace Doctor
             this.label39.Font = new System.Drawing.Font("Segoe UI", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.label39.Location = new System.Drawing.Point(6, 10);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(54, 25);
+            this.label39.Size = new System.Drawing.Size(77, 25);
             this.label39.TabIndex = 5;
-            this.label39.Text = "Back";
-            this.label39.Click += new System.EventHandler(this.label39_Click);
+            this.label39.Text = "/HOME";
             // 
             // groupBox4
             // 
@@ -375,6 +374,7 @@ namespace Doctor
             this.ChatScreentextBox.Name = "ChatScreentextBox";
             this.ChatScreentextBox.Size = new System.Drawing.Size(478, 367);
             this.ChatScreentextBox.TabIndex = 27;
+            this.ChatScreentextBox.TextChanged += new System.EventHandler(this.ChatScreentextBox_TextChanged);
             // 
             // Connectbutton
             // 
@@ -423,7 +423,6 @@ namespace Doctor
             this.ServerIPtextBox.Name = "ServerIPtextBox";
             this.ServerIPtextBox.Size = new System.Drawing.Size(100, 23);
             this.ServerIPtextBox.TabIndex = 15;
-            this.ServerIPtextBox.TextChanged += new System.EventHandler(this.ServerIPtextBox_TextChanged);
             // 
             // backgroundWorker1
             // 
@@ -433,7 +432,7 @@ namespace Doctor
             // 
             this.backgroundWorker2.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker2_DoWork);
             // 
-            // Doctor_Chat
+            // Phar_Chat
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -452,7 +451,7 @@ namespace Doctor
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximumSize = new System.Drawing.Size(1014, 498);
             this.MinimumSize = new System.Drawing.Size(1014, 498);
-            this.Name = "Doctor_Chat";
+            this.Name = "Phar_Chat";
             this.Text = "Doctor_Chat";
             this.Load += new System.EventHandler(this.Doctor_Chat_Load);
             this.guna2Panel3.ResumeLayout(false);

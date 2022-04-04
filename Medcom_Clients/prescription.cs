@@ -12,7 +12,7 @@ using System.Net.Sockets;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace Doctor
+namespace Medcom_Clients
 {
     public partial class prescription : Form
     {

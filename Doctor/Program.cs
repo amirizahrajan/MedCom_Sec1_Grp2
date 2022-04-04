@@ -17,7 +17,7 @@ namespace Doctor
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new prescription());
+            Application.Run(new Login());
         }
     }
 }
